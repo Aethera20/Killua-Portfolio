@@ -1027,16 +1027,27 @@ span {
     font-size: 50%;
   }
 
+  .header {
+    padding: 1rem 3%;
+  }
+
   #menu-icon {
     display: block;
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+    font-size: 2.8rem;
+    z-index: 101;
   }
 
   #darkMode-icon {
     position: absolute;
-    right: 7rem;
-    font-size: 2.6rem;
+    right: 5rem;
+    top: 1.5rem;
+    font-size: 2.4rem;
     color: var(--text-color);
-    margin-bottom: 0.1rem;
+    margin-bottom: 0;
+    z-index: 101;
   }
 
   .navbar {
@@ -1127,7 +1138,7 @@ span {
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 63rem;
+    top: 75rem;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -1179,6 +1190,14 @@ span {
 }
 
 @media (max-width: 365px) {
+  .header {
+    padding: 1rem 3%;
+  }
+
+  section {
+    padding: 7rem 3% 2rem;
+  }
+
   .about-img img {
     width: 90vw;
   }
@@ -1194,14 +1213,21 @@ span {
 
   #menu-icon {
     display: block;
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+    font-size: 2.8rem;
+    z-index: 101;
   }
 
   #darkMode-icon {
     position: absolute;
-    right: 7rem;
-    font-size: 2.6rem;
+    right: 5rem;
+    top: 1.5rem;
+    font-size: 2.4rem;
     color: var(--text-color);
-    margin-bottom: 0.1rem;
+    margin-bottom: 0;
+    z-index: 101;
   }
 
   .navbar {
@@ -1292,7 +1318,7 @@ span {
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 63rem;
+    top: 75rem;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
